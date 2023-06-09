@@ -2,6 +2,17 @@ package api.pojo_classes.GoRest;
 
 public class CreateUser {
 
+    /**
+     * {
+     *     "id": 2714260,
+     *     "name": "Marian Weimann",
+     *     "email": "santo.nienow@yahoo.com",
+     *     "gender": "male",
+     *     "status": "active"
+     * }
+     */
+
+
     private String name;
     private String gender;
     private String email;
@@ -39,15 +50,7 @@ public class CreateUser {
         this.status = status;
     }
 
-    /**
-     * {
-     *     "id": 2714260,
-     *     "name": "Marian Weimann",
-     *     "email": "santo.nienow@yahoo.com",
-     *     "gender": "male",
-     *     "status": "active"
-     * }
-     */
+
 
 
 }
