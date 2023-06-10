@@ -10,6 +10,13 @@ public class APISample {
         // Response is interface coming from RestAssured library
         // The interface is not just for the response. It is for both request and response
         Response response;
+        /**
+         * Response is an interface coming from the RestAssured Library
+         * The Response variable "response" stores all the components of API calls
+         * including the request and response
+         * RestAssured is written with BDD flow
+         *
+         */
 
         response = RestAssured
                 // rest assured is using the BDD format in the syntax

@@ -62,7 +62,7 @@ public class GoRest {
         response = RestAssured
                 .given().log().all()
                 .contentType(ContentType.JSON)
-                .header("Authorization", "Bearer 67b1f5766e9500e1f4504fbd9dfffd2d3792d71784f1d7665949ae0aacdf699f")
+                .header("Authorization", ConfigReader.getProperty("Token"))
                 .body(myBody)
                 .when().post("/public/v2/users")
                 .then().log().all()
