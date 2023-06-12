@@ -1,0 +1,29 @@
+[INFO ] 2023-06-12 10:16:19.636 [main] Log4jAppender - This is my information message
+[INFO ] 2023-06-12 10:16:19.636 [main] Log4jAppender - This is my information message
+[ERROR] 2023-06-12 10:16:19.642 [main] Log4jAppender - This is my error message
+[ERROR] 2023-06-12 10:16:19.642 [main] Log4jAppender - This is my error message
+[DEBUG] 2023-06-12 10:16:19.643 [main] Log4jAppender - This is my debugging message
+[DEBUG] 2023-06-12 10:16:19.643 [main] Log4jAppender - This is my debugging message
+[WARN ] 2023-06-12 10:16:19.643 [main] Log4jAppender - This is my warning message
+[WARN ] 2023-06-12 10:16:19.643 [main] Log4jAppender - This is my warning message
+[FATAL] 2023-06-12 10:16:19.643 [main] Log4jAppender - This is my fatal message
+[FATAL] 2023-06-12 10:16:19.643 [main] Log4jAppender - This is my fatal message
+[INFO ] 2023-06-12 10:17:55.657 [main] Log4jAppender - This is my information message
+[INFO ] 2023-06-12 10:17:55.657 [main] Log4jAppender - This is my information message
+[ERROR] 2023-06-12 10:17:55.660 [main] Log4jAppender - This is my error message
+[ERROR] 2023-06-12 10:17:55.660 [main] Log4jAppender - This is my error message
+[DEBUG] 2023-06-12 10:17:55.660 [main] Log4jAppender - This is my debugging message
+[DEBUG] 2023-06-12 10:17:55.660 [main] Log4jAppender - This is my debugging message
+[WARN ] 2023-06-12 10:17:55.660 [main] Log4jAppender - This is my warning message
+[WARN ] 2023-06-12 10:17:55.660 [main] Log4jAppender - This is my warning message
+[FATAL] 2023-06-12 10:17:55.660 [main] Log4jAppender - This is my fatal message
+[FATAL] 2023-06-12 10:17:55.660 [main] Log4jAppender - This is my fatal message
+[INFO ] 2023-06-12 10:22:01.075 [main] Log4jAppender - This is my information message
+[ERROR] 2023-06-12 10:22:01.083 [main] Log4jAppender - This is my error message
+[DEBUG] 2023-06-12 10:22:01.084 [main] Log4jAppender - This is my debugging message
+[WARN ] 2023-06-12 10:22:01.085 [main] Log4jAppender - This is my warning message
+[FATAL] 2023-06-12 10:22:01.085 [main] Log4jAppender - This is my fatal message
+[INFO ] 2023-06-12 10:29:28.241 [main] GoRestWithLombok - I am done with my testing in the class
+[INFO ] 2023-06-12 11:36:13.434 [main] PetStoreWithLombok - This is my information message
+[ERROR] 2023-06-12 11:36:13.442 [main] PetStoreWithLombok - This is my error message
+[DEBUG] 2023-06-12 11:36:13.443 [main] PetStoreWithLombok - This is my debugging message

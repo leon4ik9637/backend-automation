@@ -1,4 +1,4 @@
-public class API_Autoation_Lombok_Log4J {
+public class API_Automation_Lombok_Log4J {
     /*
     RestAssured - it is a library we can do our automation
 
