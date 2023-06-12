@@ -18,6 +18,9 @@ import utils.ConfigReader;
 import java.util.Collections;
 import java.util.List;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.is;
+
 public class AddPetToStore {
     static Logger logger = LogManager.getLogger(AddPetToStore.class);
     Response response;
@@ -73,6 +76,21 @@ public class AddPetToStore {
                 .assertThat().statusCode(200)
                 .extract().response();
 
+        int actualTagsId = response.jsonPath().getInt("tags[0].id");
+        int expectedTagsId = tags.getId();
+
+        logger.error(actualTagsId + " should be matching with the expected one " + expectedTagsId);
+
+        // first line is the reason why we are doing the assertion
+        assertThat("I am expecting to get tags Id: " + tags.getId(),
+                // I need actual value to be able to assert with the expected one
+                actualTagsId,
+                // Checking if the expected value is matching with the actual
+                is(tags.getId()));
+
+
+        logger.info("Actual tagsId is = " + actualTagsId);
+        logger.info("Expected tagsId is = " + expectedTagsId);
 
 
 
