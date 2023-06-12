@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "id",
+    "name",
+    "email",
+    "gender",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "number",
+      "default": 0,
+      "title": "The id Schema",
+      "examples": [
+        2672082
+      ]
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "title": "The name Schema",
+      "examples": [
+        "Terrell Collins"
+      ]
+    },
+    "email": {
+      "type": "string",
+      "default": "",
+      "title": "The email Schema",
+      "examples": [
+        "emailhOjwO@gmail.com"
+      ]
+    },
+    "gender": {
+      "type": "string",
+      "default": "",
+      "title": "The gender Schema",
+      "examples": [
+        "male"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "default": "",
+      "title": "The status Schema",
+      "examples": [
+        "active"
+      ]
+    }
+  },
+  "examples": [{
+    "id": 2672082,
+    "name": "Terrell Collins",
+    "email": "emailhOjwO@gmail.com",
+    "gender": "male",
+    "status": "active"
+  }]
+}

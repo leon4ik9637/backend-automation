@@ -27,3 +27,13 @@
 [INFO ] 2023-06-12 11:36:13.434 [main] PetStoreWithLombok - This is my information message
 [ERROR] 2023-06-12 11:36:13.442 [main] PetStoreWithLombok - This is my error message
 [DEBUG] 2023-06-12 11:36:13.443 [main] PetStoreWithLombok - This is my debugging message
+[INFO ] 2023-06-12 12:03:07.832 [main] GoRestSchemaValidation - Gorest POST schema is validated
+[INFO ] 2023-06-12 12:04:42.748 [main] GoRestSchemaValidation - GoRest POST schema is validated
+[INFO ] 2023-06-12 12:07:04.211 [main] GoRestSchemaValidation - GoRest POST schema is validated
+[WARN ] 2023-06-12 12:07:04.222 [main] GoRestSchemaValidation - GoRest POST schema is not matching with the expected one
+[INFO ] 2023-06-12 12:07:23.840 [main] GoRestSchemaValidation - GoRest POST schema is validated
+[DEBUG] 2023-06-12 12:07:23.846 [main] GoRestSchemaValidation - GoRest POST schema is not matching with the expected one
+[INFO ] 2023-06-12 12:08:09.770 [main] GoRestSchemaValidation - GoRest POST schema is validated
+[DEBUG] 2023-06-12 12:08:09.775 [main] GoRestSchemaValidation - GoRest POST schema is not matching with the expected one
+[INFO ] 2023-06-12 12:08:14.090 [main] GoRestSchemaValidation - GoRest POST schema is validated
+[WARN ] 2023-06-12 12:08:14.091 [main] GoRestSchemaValidation - GoRest POST schema is not matching with the expected one
