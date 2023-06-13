@@ -13,8 +13,9 @@ import lombok.Data;
 public class UpdateUserWithLombok {
 
     @Builder.Default
-//    private String name;
     private String gender = "female";
     private String email;
-//    private String status;
+    // name and status variable are added when we are doing cucumber test
+    private String name;
+    private String status;
 }

@@ -90,7 +90,8 @@ public class AddPetToStore {
 
 
         logger.info("Actual tagsId is = " + actualTagsId);
-        logger.info("Expected tagsId is = " + expectedTagsId);
+        logger.info("(\"Actual tagsId is = \" + actualTagsId);\n" +
+                "        logger.info(\"Expected tagsId is = " + expectedTagsId);
 
 
 

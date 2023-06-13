@@ -1,13 +1,12 @@
 package stepDef.apiStepDef;
-/*
-import api.pojo_classes.GoRest.GoRest.CreateUserWithLombok;
-import api.pojo_classes.GoRest.GoRest.UpdateUserWithLombok;
+
+import api.pojo_classes.GoRest.CreateUserWithLombok;
+import api.pojo_classes.GoRest.UpdateUserWithLombok;
 import com.github.javafaker.Faker;
 import com.jayway.jsonpath.JsonPath;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
+import cucumber.api.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -18,13 +17,11 @@ import java.util.Map;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
+
 import static utils.Hooks.goRestBaseURL;
 import static utils.Hooks.token;
 
- */
-
 public class GoRestStepDef {
-/*
     static Logger logger = LogManager.getLogger(GoRestStepDef.class);
     Response response;
     Faker faker = new Faker();
@@ -112,5 +109,4 @@ public class GoRestStepDef {
 
     }
 
- */
 }
