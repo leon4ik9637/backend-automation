@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-06-13T16:28:49.508Z",
+        "start_timestamp": "2023-06-13T19:12:06.338Z",
         "line": 2,
         "name": "Could not execute Cucumber",
         "description": "",
@@ -27,7 +27,7 @@
           {
             "result": {
               "duration": 0,
-              "error_message": "There were 2 exceptions:\n  io.cucumber.core.exception.CucumberException(No backends were found. Please make sure you have a backend module on your CLASSPATH.)\n  io.cucumber.core.exception.CucumberException(No backends were found. Please make sure you have a backend module on your CLASSPATH.)",
+              "error_message": "io.cucumber.core.exception.CucumberException: No backends were found. Please make sure you have a backend module on your CLASSPATH.",
               "status": "failed"
             },
             "line": 4,

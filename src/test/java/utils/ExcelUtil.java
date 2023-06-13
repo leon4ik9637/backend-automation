@@ -28,11 +28,11 @@ public class ExcelUtil {
             FileInputStream fileInputStream = new FileInputStream(filePath);
             // Opening the file
             workbook = new XSSFWorkbook(fileInputStream);
-            System.out.println("File is exist!");
+            System.out.println("File exists!");
             sheet = workbook.getSheet(sheetName);
-            System.out.println("Sheet is exist!");
+            System.out.println("Sheet exists!");
         } catch (Exception e) {
-            System.out.println("The file or sheet is not exist");
+            System.out.println("The file or sheet does not exist");
         }
 
     }

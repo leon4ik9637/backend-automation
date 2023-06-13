@@ -1,6 +1,6 @@
 Feature: As a QE, I am validating the JDBC Project 01
 
-  @db
+  @smoke
   Scenario Outline: Validating the JDBC Project 01
     Given User is able connect to database
     When User send the "<query>" to database and getting list
