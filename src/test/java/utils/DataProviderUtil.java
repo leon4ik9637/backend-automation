@@ -2,8 +2,6 @@ package utils;
 
 import org.testng.annotations.DataProvider;
 
-import java.lang.reflect.Method;
-
 import static utils.ConfigReader.getProperty;
 
 public class DataProviderUtil {
@@ -12,7 +10,8 @@ public class DataProviderUtil {
     public static Object[][] getDataFromExcelFileWithDataProvider(){
 
         ExcelUtil.openExcelFile(getProperty("petStoreExcel"), getProperty("petStoreExcelSheet"));
-        // reading all the data from the Excel file and convert it to multidimensional array
+                               // reading all the data from the Excel file and
+                               // convert it to multidimensional array
         Object[][] dataArray = ExcelUtil.getExcelData(ExcelUtil.getValues());
 
         ExcelUtil.closeExcelFile();

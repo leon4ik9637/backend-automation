@@ -15,10 +15,10 @@ import utils.ConfigReader;
 
 import java.util.Arrays;
 
-public class PetStoreWithLombok {
+public class PetStoreOrderWithLombok {
     Response response;
     Faker faker = new Faker();
-    static Logger logger = LogManager.getLogger(PetStoreWithLombok.class);
+    static Logger logger = LogManager.getLogger(PetStoreOrderWithLombok.class);
     CreatePetOrderWithLombok createPetOrderWithLombok;
 
     int actualId;

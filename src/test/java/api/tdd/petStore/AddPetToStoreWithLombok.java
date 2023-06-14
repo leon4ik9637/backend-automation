@@ -3,7 +3,6 @@ package api.tdd.petStore;
 import api.pojo_classes.petStore.Category;
 import api.pojo_classes.petStore.CreatePet;
 import api.pojo_classes.petStore.Tags;
-import api.tdd.goRest.GoRestSchemaValidation;
 import com.github.javafaker.Faker;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -15,14 +14,14 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import utils.ConfigReader;
 
+import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
-public class AddPetToStore {
-    static Logger logger = LogManager.getLogger(AddPetToStore.class);
+public class AddPetToStoreWithLombok {
+    static Logger logger = LogManager.getLogger(AddPetToStoreWithLombok.class);
     Response response;
     Faker faker = new Faker();
     int actualId;
@@ -52,9 +51,15 @@ public class AddPetToStore {
                 .build();
 
         // Building the Tags request list
-        Tags tags = Tags.builder()
+        Tags tags0 = Tags.builder()
                 .id(15)
                 .name("MyDogTag")
+                .build();
+
+        // Building the Tags request list
+        Tags tags1 = Tags.builder()
+                .id(16)
+                .name("MyPuppyTag")
                 .build();
 
 
@@ -62,8 +67,8 @@ public class AddPetToStore {
                 .id(9)
                 .category(category)
                 .name("Snow")
-                .photoUrls(Collections.singletonList("My dog's URL"))
-                .tags(Collections.singletonList(tags))
+                .photoUrls(Arrays.asList("My dog's URL"))
+                .tags(Arrays.asList(tags0, tags1))
                 .status("available")
                 .build();
 
@@ -77,16 +82,16 @@ public class AddPetToStore {
                 .extract().response();
 
         int actualTagsId = response.jsonPath().getInt("tags[0].id");
-        int expectedTagsId = tags.getId();
+        int expectedTagsId = tags0.getId();
 
         logger.error(actualTagsId + " should be matching with the expected one " + expectedTagsId);
 
         // first line is the reason why we are doing the assertion
-        assertThat("I am expecting to get tags Id: " + tags.getId(),
+        assertThat("I am expecting to get tags Id: " + tags0.getId(),
                 // I need actual value to be able to assert with the expected one
                 actualTagsId,
                 // Checking if the expected value is matching with the actual
-                is(tags.getId()));
+                is(tags0.getId()));
 
 
         logger.info("Actual tagsId is = " + actualTagsId);

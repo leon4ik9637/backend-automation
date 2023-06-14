@@ -88,3 +88,42 @@ Link: http://localhost:63342/b4-backend-automation/target/cucumber-html-reports/
 Link: http://localhost:63342/b4-backend-automation/target/cucumber-html-reports/overview-features.html
 ---------------------------------------------------------------------------------------------------------------
 ***************************************************************************************************************
+[INFO ] 2023-06-14 11:30:41.523 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 3 but we found 3
+[INFO ] 2023-06-14 11:30:41.847 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 4 but we found 4
+[INFO ] 2023-06-14 11:30:42.175 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 5 but we found 5
+[INFO ] 2023-06-14 11:40:19.444 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[INFO ] 2023-06-14 11:40:19.451 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 3 but we found 3
+[INFO ] 2023-06-14 11:40:19.848 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[INFO ] 2023-06-14 11:40:19.848 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 4 but we found 4
+[INFO ] 2023-06-14 11:40:20.166 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[INFO ] 2023-06-14 11:40:20.167 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 5 but we found 5
+[INFO ] 2023-06-14 11:42:06.659 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[INFO ] 2023-06-14 11:42:06.666 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 3 but we found 3
+[INFO ] 2023-06-14 11:42:07.030 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[INFO ] 2023-06-14 11:42:07.031 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 4 but we found 4
+[INFO ] 2023-06-14 11:42:07.348 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[INFO ] 2023-06-14 11:42:07.348 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 5 but we found 5
+[INFO ] 2023-06-14 11:42:55.313 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[INFO ] 2023-06-14 11:42:55.319 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 3 but we found 3
+[INFO ] 2023-06-14 11:42:55.637 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[INFO ] 2023-06-14 11:42:55.637 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 4 but we found 4
+[INFO ] 2023-06-14 11:42:55.931 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[INFO ] 2023-06-14 11:42:55.931 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 5 but we found 5
+[INFO ] 2023-06-14 11:44:18.389 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[INFO ] 2023-06-14 11:44:18.395 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 10 but we found 3
+[INFO ] 2023-06-14 11:44:18.732 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[INFO ] 2023-06-14 11:44:18.732 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 10 but we found 4
+[INFO ] 2023-06-14 11:44:19.044 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[INFO ] 2023-06-14 11:44:19.044 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 10 but we found 5
+[INFO ] 2023-06-14 11:45:12.375 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[DEBUG] 2023-06-14 11:45:12.386 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 10 but we found 3
+[INFO ] 2023-06-14 11:45:12.682 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[DEBUG] 2023-06-14 11:45:12.682 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 10 but we found 4
+[INFO ] 2023-06-14 11:45:13.009 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[DEBUG] 2023-06-14 11:45:13.009 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 10 but we found 5
+[INFO ] 2023-06-14 11:47:11.710 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[DEBUG] 2023-06-14 11:47:11.717 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 3 but we found 3
+[INFO ] 2023-06-14 11:47:11.983 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[DEBUG] 2023-06-14 11:47:11.983 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 4 but we found 4
+[INFO ] 2023-06-14 11:47:12.272 [main] AddPetToStoreWithLombokAndDataProvider - I am asserting actual and expected value
+[DEBUG] 2023-06-14 11:47:12.272 [main] AddPetToStoreWithLombokAndDataProvider - Expected pet id should be 5 but we found 5
