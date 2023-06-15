@@ -25,7 +25,7 @@ import java.util.List;
             plugin = {"pretty", "html: target/cucumber.html", "json:target/cucumber.json"},
             features = "src/test/resources",
             glue = {"stepDef", "utils"},
-            tags = "@db"
+            tags = "@api"
     )
     public class Runner extends AbstractTestNGCucumberTests {
 
@@ -68,7 +68,7 @@ import java.util.List;
         } // end cleanUp
 
         private void generatePrettyReportsLocally() {
-            String projectName = "b4-backend-automation";
+            String projectName = "backend-automation";
             String reportFilePath = "target";
             File reportOutputDirectory = new File(reportFilePath);
             List<String> jsonFiles = new ArrayList<>();

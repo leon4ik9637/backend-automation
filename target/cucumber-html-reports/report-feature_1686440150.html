@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber Reports  - Feature: Test run failed</title>
+<title>Cucumber Reports  - Feature: As a QE, I validate the GoRest CRUD operations</title>
 
 </head>
 <body>
@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>backend-automation</td>
-            <td>14 Jun 2023, 15:27</td>
+            <td>14 Jun 2023, 15:34</td>
     </tr>
   </tbody>
 </table>
@@ -127,20 +127,20 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">Test run failed</td>
-          <td      class="passed"    >1</td>
-          <td      class="failed"    >1</td>
+          <td class="tagname">As a QE, I validate the GoRest CRUD operations</td>
+          <td      class="passed"    >8</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">2</td>
+          <td >0</td>
+          <td class="total">8</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="0">0.000</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="7592000000">7.592</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -169,17 +169,19 @@ $(document).ready(function() {
       <div class="feature">
         
 <div class="tags indention">
-  </div>
+      <b>Tags:</b>
+           <a href="report-tag_2149487065.html">@api</a>
+      </div>
 
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
-  <span class="name">Test run failed</span>
+  <span class="name">As a QE, I validate the GoRest CRUD operations</span>
   
 
   </div>
 
-        <div class="description indention">There were errors during the execution</div>
+        <div class="description indention"></div>
 
         <div class="elements inner-level">
                       
@@ -187,17 +189,19 @@ $(document).ready(function() {
   
   
 <div class="tags indention">
-  </div>
+      <b>Tags:</b>
+           <a href="report-tag_2149487065.html">@api</a>
+      </div>
 
   
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">7.592</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
-<div class="brief failed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Failure while executing Cucumber</span>
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Validating the GoRest CRUD operations</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -206,15 +210,48 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
     
+  <div class="inner-level hooks-element-before">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-2" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">utils.Hooks.setUp()</span>
+                        
+  <span class="lead-duration duration">0.002</span>
+
+          </div>
+
+                      
+
+          
+                    
+
+          
+  
+        </div>
+          </div>
+  </div>
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -224,14 +261,174 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">Create user with <span class="argument">&quot;Tech Global&quot;</span>, <span class="argument">&quot;female&quot;</span>, email, and <span class="argument">&quot;active&quot;</span></span>
+  
+  <span class="lead-duration duration">4.911</span>
+
+</div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">Validate that status code is <span class="argument">201</span></span>
+  
+  <span class="lead-duration duration">0.012</span>
+
+</div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Make GET call to get user with <span class="argument">&quot;/public/v2/users/&quot;</span></span>
+  
+  <span class="lead-duration duration">0.625</span>
+
+</div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Validate that status code is <span class="argument">200</span></span>
+  
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Updating the user with the following data</span>
+  
+  <span class="lead-duration duration">1.120</span>
+
+</div>
+
+        
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>name</td>
+                                  <td>Batch 3</td>
+                              </tr>
+                          <tr>
+                                  <td>status</td>
+                                  <td>active</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Validate that status code is <span class="argument">200</span></span>
+  
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+        
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+        
+
+      </div>
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">When</span>
-  <span class="name">Cucumber failed while executing</span>
+  <span class="name">I delete user</span>
   
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.921</span>
 
 </div>
 
@@ -252,66 +449,17 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">Cucumber will report this error:</span>
+  <span class="name">Validate that status code is <span class="argument">204</span></span>
   
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
         
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
-          <a>io.cucumber.core.runner.DuplicateStepDefinitionException:</a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details  in ">
-        <pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDef.apiStepDef.GoRestStepDef.validate_that_status_code_is(java.lang.Integer) and stepDef.apiStepDef.CommonStepDef.validate_that_status_code_is(java.lang.Integer)
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -329,6 +477,39 @@ $(document).ready(function() {
 
 
     
+  <div class="inner-level hooks-element-after">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-4" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">utils.Hooks.tearDown()</span>
+                        
+  <span class="lead-duration duration">0.001</span>
+
+          </div>
+
+                      
+
+          
+                    
+
+          
+  
+        </div>
+          </div>
+  </div>
 
   </div>
 </div>

@@ -4,29 +4,27 @@ import api.pojo_classes.GoRest.CreateUserWithLombok;
 import api.pojo_classes.GoRest.UpdateUserWithLombok;
 import com.github.javafaker.Faker;
 import com.jayway.jsonpath.JsonPath;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 
 import java.util.Map;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
-import static utils.Hooks.goRestBaseURL;
-import static utils.Hooks.token;
+import static utils.Hooks.*;
 
 public class GoRestStepDef {
     static Logger logger = LogManager.getLogger(GoRestStepDef.class);
-    Response response;
+
     Faker faker = new Faker();
 
-    int actualStatusCode;
     int actualId;
 
     @Given("Create user with {string}, {string}, email, and {string}")
@@ -48,22 +46,6 @@ public class GoRestStepDef {
                 .body(createUserWithLombok)
                 .when().post(goRestBaseURL + "/public/v2/users")
                 .then().log().all().extract().response();
-    }
-
-    @Given("Validate that status code is {int}")
-    public void validate_that_status_code_is(Integer expectedStatusCode) {
-
-        // Getting the status code from the most recent response body
-        actualStatusCode = response.statusCode();
-
-        assertThat(
-                "Expect response status code: " + expectedStatusCode,
-                actualStatusCode,
-                is(expectedStatusCode)
-        );
-
-        logger.info("Expected status code is " + expectedStatusCode + ", we found " + actualStatusCode);
-
     }
 
     @And("Make GET call to get user with {string}")
