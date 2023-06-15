@@ -105,11 +105,13 @@ public class GoRestCreateCommentWithLombok {
                 .then().log().all().extract().response();
 
 
-        String actualPrevious = JsonPath.read(response.asString(), "meta.pagination.links.previous");
+        String actualSecondField = JsonPath.read(response.asString(), "data[1].field");
+        String expectedSecondField = "post_id";
 
-        logger.info("Previous value is: " + actualPrevious);
+        logger.info("Asserting the field values");
+        logger.debug("Actual field is " + actualSecondField + " we found " + expectedSecondField);
+        Assert.assertEquals(actualSecondField, "post_id");
 
-        Assert.assertEquals(actualPrevious, null);
 
 
     }
