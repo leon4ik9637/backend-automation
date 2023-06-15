@@ -439,3 +439,26 @@ Link: http://localhost:63342/backend-automation/target/cucumber-html-reports/ove
 Link: http://localhost:63342/backend-automation/target/cucumber-html-reports/overview-features.html
 ---------------------------------------------------------------------------------------------------------------
 ***************************************************************************************************************
+[INFO ] 2023-06-15 10:33:22.144 [main] CommonStepDef - Expected status code is 201, we found 201
+[INFO ] 2023-06-15 10:33:23.395 [main] CommonStepDef - Expected status code is 200, we found 200
+[INFO ] 2023-06-15 10:33:24.372 [main] CommonStepDef - Expected status code is 200, we found 200
+[INFO ] 2023-06-15 10:33:25.366 [main] GoRestStepDef - User is deleted with the id: 2917690
+[INFO ] 2023-06-15 10:33:25.372 [main] CommonStepDef - Expected status code is 204, we found 204
+[INFO ] 2023-06-15 10:33:25.373 [main] Hooks - Ending the test
+[INFO ] 2023-06-15 10:34:00.063 [main] CommonStepDef - Expected status code is 201, we found 201
+[INFO ] 2023-06-15 10:34:01.230 [main] CommonStepDef - Expected status code is 200, we found 200
+[INFO ] 2023-06-15 10:34:02.194 [main] CommonStepDef - Expected status code is 200, we found 200
+[INFO ] 2023-06-15 10:34:03.155 [main] GoRestStepDef - User is deleted with the id: 2917700
+[INFO ] 2023-06-15 10:34:03.157 [main] CommonStepDef - Expected status code is 204, we found 204
+[INFO ] 2023-06-15 10:34:03.158 [main] Hooks - Ending the test
+[INFO ] 2023-06-15 10:34:03.615 [main] CommonStepDef - Expected status code is 200, we found 200
+[INFO ] 2023-06-15 10:34:03.905 [main] PetStoreStepDef - Validating the Pet ID
+[DEBUG] 2023-06-15 10:34:03.906 [main] PetStoreStepDef - Actual Pet ID should be 15 we found 15
+[INFO ] 2023-06-15 10:34:04.805 [main] PetStoreStepDef - User with the id "15" is deleted
+[INFO ] 2023-06-15 10:34:04.810 [main] Hooks - Ending the test
+[INFO ] 2023-06-15 10:34:06.458 [main] Runner - 
+**************************************************************************************************************
+--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------
+Link: http://localhost:63342/backend-automation/target/cucumber-html-reports/overview-features.html
+---------------------------------------------------------------------------------------------------------------
+***************************************************************************************************************

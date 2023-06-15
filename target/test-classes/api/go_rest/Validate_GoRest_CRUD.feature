@@ -1,4 +1,4 @@
-#@api
+@api
   Feature: As a QE, I validate the GoRest CRUD operations
     Scenario Outline: Validating the GoRest CRUD operations
       Given Create user with "<name>", "<gender>", email, and "<status>"
